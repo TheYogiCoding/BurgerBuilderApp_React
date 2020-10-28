@@ -22,7 +22,7 @@
 @media (min-width: 500px) {
   .NavigationItem {
     margin: 0;
-    display: inline-flex;
+    display: flex;
     height: 100%;
     width: auto;
     align-items: center;
@@ -32,8 +32,7 @@
     color: white;
     height: 100%;
     padding: 16px 10px;
-    display: inline;
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid transparent;
   }
 
   .NavigationItem a:hover,

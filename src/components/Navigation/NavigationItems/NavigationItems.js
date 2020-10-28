@@ -4,13 +4,11 @@ import NavigationItem from "../NavigationItems/NavigationItem/NavigationItem";
 
 const navigationItems = (props) => {
   return (
-    <ul className={classes.navigationItems}>
+    <ul className={classes.NavigationItems}>
       <NavigationItem link="/" active>
         Burger Builder
       </NavigationItem>
-      <NavigationItem link="/" active>
-        Checkout
-      </NavigationItem>
+      <NavigationItem link="/">Checkout</NavigationItem>
     </ul>
   );
 };
